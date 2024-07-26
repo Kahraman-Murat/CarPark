@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.User", "CarPark.User\CarPark.User.csproj", "{B6B65B6B-DB3C-40F7-BDB0-D5F327843DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.User", "CarPark.User\CarPark.User.csproj", "{B6B65B6B-DB3C-40F7-BDB0-D5F327843DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.API", "CarPark.API\CarPark.API.csproj", "{1290B1C8-646F-47F8-BFFE-810F22117EC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.API", "CarPark.API\CarPark.API.csproj", "{1290B1C8-646F-47F8-BFFE-810F22117EC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.DataAccess", "CarPark.DataAccess\CarPark.DataAccess.csproj", "{ABEB6BA6-02B8-428D-8998-51C1F350098B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.DataAccess", "CarPark.DataAccess\CarPark.DataAccess.csproj", "{ABEB6BA6-02B8-428D-8998-51C1F350098B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Business", "CarPark.Business\CarPark.Business.csproj", "{3413CDC9-D44F-4ED4-B5C7-ACF5CAF703FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Business", "CarPark.Business\CarPark.Business.csproj", "{3413CDC9-D44F-4ED4-B5C7-ACF5CAF703FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Core", "CarPark.Core\CarPark.Core.csproj", "{E8946156-4953-4F90-82BE-CA694EE0CB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Core", "CarPark.Core\CarPark.Core.csproj", "{E8946156-4953-4F90-82BE-CA694EE0CB6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Helper", "CarPark.Helper\CarPark.Helper.csproj", "{9269CE12-2E24-40DE-B16B-F8B9287385BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Helper", "CarPark.Helper\CarPark.Helper.csproj", "{9269CE12-2E24-40DE-B16B-F8B9287385BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Entities", "CarPark.Entities\CarPark.Entities.csproj", "{85F3612A-66C0-4F09-8F57-85EAA9CF75AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Entities", "CarPark.Entities\CarPark.Entities.csproj", "{85F3612A-66C0-4F09-8F57-85EAA9CF75AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPArk.Models", "CarPArk.Models\CarPArk.Models.csproj", "{92FFF04D-B42A-4791-8F2C-C114164209BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPArk.Models", "CarPArk.Models\CarPArk.Models.csproj", "{92FFF04D-B42A-4791-8F2C-C114164209BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Test", "CarPark.Test\CarPark.Test.csproj", "{313CAE79-5647-467D-B758-BFD17F2663EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Test", "CarPark.Test\CarPark.Test.csproj", "{313CAE79-5647-467D-B758-BFD17F2663EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

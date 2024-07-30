@@ -1,5 +1,9 @@
+using CarPark.Core.Repository.Abstract;
+using CarPark.Core.Settings;
+using CarPark.DataAccess.Repository;
 using Serilog;
 using Serilog.Events;
+
 
 
 
@@ -21,6 +25,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddSerilog();               //Added for Serilog 
 builder.Services.AddControllersWithViews();
+
+builder.Services.Configure<MongoSettings>(options =>
+{
+    options.ConnectionStrings = Configuration.GetSection("MongoConnection:ConnectionString").Value;
+    options.Database = Configuration.GetSection("MongoConnection:Database").Value;
+});
+builder.Services.AddScoped(typeof(IRepository<>), typeof(MongoRepositoryBase<>));
+
 
 var app = builder.Build();
 
